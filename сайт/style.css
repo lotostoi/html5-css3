@@ -1,0 +1,650 @@
+@font-face {
+    font-family: Arial regular;
+    src: url(fonts/Arial reaguar.ttf):;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+body {
+    width: 1280px;
+    margin: 20px auto;
+    border: 1px solid lightgray;
+}
+
+.class_for_main {}
+
+/*стили для шапки*/
+.head {
+    height: 323px;
+    background-color: #445162;
+}
+
+.class_for_section_head {
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 465px;
+    height: 220px;
+    float: left;
+
+}
+
+.ul_headre {
+    height: 127px;
+    margin-left: 38px;
+    margin-top: 48px;
+    list-style-image: url('img/check_icon.png');
+}
+
+.h1_header {
+    line-height: 44px;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-family: "Arial regular";
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.li_header {
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-family: "Arial regular";
+    font-size: 20px;
+    font-weight: 400;
+    /*    line-height: 36px;*/
+}
+
+.li_header:not(:first-child) {
+    margin-top: 11px;
+}
+
+.wight_rectangle {
+    float: left;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 253px;
+    width: 469px;
+    height: 214px;
+    background-color: white;
+}
+
+/*стили для секции информация о продукте*/
+.div_about_you_product {
+    clear: both;
+}
+
+
+.section_about_you_product {
+    display: inline-block;
+    float: left;
+    width: 653px;
+    height: 245px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.h3about_product {
+    float: left;
+    line-height: 28px;
+    color: #445161;
+    font-family: "Arial regular";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.ps_about_you_product {
+    float: left;
+    width: 653px;
+    height: 63px;
+    font-family: "Arial regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+
+}
+
+p.p1 {
+    margin-top: 30px;
+}
+
+p.p2 {
+    margin-top: 20px;
+}
+
+
+.grey_rectangle {
+    display: inline-block;
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+    width: 430px;
+    height: 245px;
+    background-color: #445162;
+
+}
+
+/*стили для секции достониства и плюсы продукта*/
+.dignity_product {
+    clear: both;
+}
+
+.h3_dignity_product {
+    clear: both;
+    margin-top: 99px;
+    text-align: center;
+    color: #445161;
+    font-family: "Arial regular";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.img_plus {
+    width: 32px;
+    height: 32px;
+    float: left;
+    display: inline-block;
+    background-color: #445162;
+    margin-top: 5px;
+    margin-right: 9px;
+}
+
+.row_dignity_product div:first-child {
+    margin-left: 50px;
+}
+
+.row_dignity_product div:last-child {
+    margin-left: 23px;
+}
+
+.plus {
+    margin-left: 6px;
+    margin-top: 5px;
+}
+
+.p_dignity {
+    width: 562px;
+    display: inline-block;
+    float: left;
+    color: #333333;
+    font-family: "Arial regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.marginf_dignity_product {
+    margin-top: 29px;
+}
+
+.marginl_dignity_product {
+    margin-top: 35px;
+}
+
+.section_scrinshot {}
+
+/****************начало секции скриншотов********************/
+.section_scrinshot {}
+
+
+.h3_scrishot {
+    margin-top: 102px;
+    text-align: center;
+    color: #445161;
+    font-family: "Arial regular";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.ff {
+    margin-top: 35px;
+
+}
+
+.ll {
+    margin-top: 30px;
+
+}
+
+.figure_img_scrinshot {
+    float: left;
+    display: inline-block;
+    margin-top: 3px;
+}
+
+.img_scroshot {
+    float: left;
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+    background-color: #445162;
+
+}
+
+.row_scrinshot figure:first-child {
+    margin-left: 50px;
+}
+
+.row_scrinshot figure:nth-child(2) {
+    margin-left: 15px;
+}
+
+.desc_img_scrinshot {
+    display: inline-block;
+    float: left;
+    width: 360px;
+    margin-left: 15px;
+    ;
+}
+
+.h4_desc_img_scrinshot {
+    float: left;
+    color: #445161;
+    font-family: "Arial regular";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.p_desc_img_scrinshot {
+    float: left;
+    color: #333333;
+    font-family: "Arial regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 15px;
+}
+
+/*стили для секции отзывы*/
+.h3_reviews {
+    margin-top: 99px;
+    text-align: center;
+    color: #445161;
+    font-family: "Arial regular";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+
+}
+
+.article_reviews {
+    float: left;
+    display: inline-block;
+}
+
+
+.img_foto_reviews {
+    float: left;
+    margin-left: 50px;
+    width: 75px;
+    height: 75px;
+    background-color: #445162;
+    border-radius: 50%;
+}
+
+.p_reviews {
+    display: inline-block;
+    float: left;
+    margin-left: 43px;
+    margin-top: 16px;
+    width: 436px;
+    color: #333333;
+    font-family: "Arial regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    font-style: italic;
+}
+
+.name_footer {
+    width: 68px;
+    color: #989898;
+    font-family: "Arial regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+
+}
+
+.footer_reviews {
+    float: left;
+    clear: both;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 167px;
+}
+
+.rro {
+    margin-top: 35px;
+
+}
+
+.rrt {
+    margin-top: 40px;
+
+}
+
+.h50 {
+
+    clear: both;
+    height: 50px;
+}
+
+/**********Подвал******************************/
+.cotacts_main {
+    clear: both;
+    height: 509px;
+    background-color: #445162;
+
+}
+
+.form_cotacts {
+    display: inline-block;
+    float: left;
+    width: 515px;
+    margin-left: 249px;
+    margin-top: 31px;
+}
+
+.h3_cotacts_main {
+    margin-top: 53px;
+    text-align: center;
+    clear: both;
+    color: #ffffff;
+    font-family: "Arial regular";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+
+.input_name_cotacts {
+    width: 500px;
+    height: 40px;
+    display: block;
+    margin-bottom: 21px;
+    border: 1px solid#445162;
+    border-radius: 5px;
+    padding-left: 10px;
+    color: #445162;
+    font-family: "Arial regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.input_textarea_cotacts {
+    width: 500px;
+    height: 170px;
+    display: block;
+    margin-bottom: 21px;
+    border: 1px solid#445162;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: #445162;
+    font-family: "Arial regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.input_button_cotacts {
+    margin-left: 180px;
+    width: 140px;
+    height: 40px;
+/*    border: 1px solid #445162;*/
+    border-radius: 5px;
+    color: #445162;
+    font-family: "Arial regular";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.fig_skype {
+    display: inline-block;
+    width: 24px;
+    height: 26px;
+    background: url(img/skype_icon.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.fig_flower {
+    display: inline-block;
+    width: 24px;
+    height: 26px;
+    background: url(img/icq_icon.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.fig_email {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background: url(img/email_icon.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.fig_phon {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background: url(img/phone_icon.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.section_cotacts_main {
+    float: left;
+    display: inline-block;
+    margin-top: 31px;
+    margin-left: 46px;
+}
+
+.span_cotacts {
+    display: inline-block;
+    width: 165px;
+    color: #ffffff;
+    font-family: "Arial regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 30px;
+    height: 32px;
+}
+
+.row_cotacts_cont {
+    padding: auto 0;
+}
+
+.rfflower {
+    margin-top: 20px;
+}
+
+.rfcemail {
+    margin-top: 21px;
+}
+
+.rfcphon {
+    margin-top: 23px;
+}
+
+.cocseti {
+    float: left;
+    margin-top: 32px;
+    width: 250px;
+    height: 44px;
+
+}
+
+.button_cocseti {
+    width: 41px;
+    height: 41px;
+    float: left;
+    margin-left: 1px;
+    /*    border: 1px solid yellow;*/
+    border-radius: 50%;
+}
+
+.button_cocseti:nth-child(1) {
+    background: url(img/twiter.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 2px;
+}
+
+.button_cocseti:nth-child(2) {
+    background: url(img/f.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 8px;
+}
+
+.button_cocseti:nth-child(3) {
+    background: url(img/in.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 9px;
+}
+
+.button_cocseti:nth-child(4) {
+    background: url(img/g.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 9px;
+}
+
+.button_cocseti:nth-child(5) {
+    background: url(img/you.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 9px;
+}
+
+
+
+.footer_main {
+    height: 26px;
+    clear: both;
+}
+
+.h3_footer_main {
+    text-align: center;
+    color: #312d2d;
+    font-family: "Arial regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* секция купить сейчас*/
+.h3_buy_now {
+    text-align: center;
+    margin-top: 50px;
+    color: #445161;
+    font-family: "Arial regular";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.sstndart {
+    background-color: #445162;
+    float: left;
+    width: 300px;
+    margin-left: 145px;
+    margin-top: 223px;
+    border-radius: 5px;
+}
+
+.spremium {
+    background-color: #445162;
+    float: left;
+    width: 300px;
+    margin-left: 46px;
+    margin-top: 127px;
+    border-radius: 5px;
+}
+
+.slux {
+    background-color: #445162;
+    float: left;
+    width: 300px;
+    margin-left: 46px;
+    margin-top: 31px;
+    border-radius: 5px;
+}
+
+
+
+.h4_mini_section {
+    text-align: center;
+    margin-top: 16px;
+    color: #ffffff;
+    font-family: "Arial regular";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    line-height: 18px;
+}
+
+.p_mimi_section {
+    text-align: center;
+    height: 71px;
+    background-color: white;
+    color: #445162;
+    font-family: "Arial regular";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 71px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 18px;
+}
+
+.ol_mini_section {
+    list-style-position: inside;
+    margin-left: 18px;
+    margin-top: 21px;
+    color: #ffffff;
+    font-family: "Arial regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.buttom_buy {
+    display: inline-block;
+    margin: 20px 20px 20px;
+    width: 260px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+    color: #445161;
+    font-family: "Arial regular";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 18px;
+    text-transform: uppercase;
+
+}
