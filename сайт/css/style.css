@@ -1,10 +1,3 @@
-@font-face {
-    font-family: Arial regular;
-    src: url(fonts/Arial reaguar.ttf):;
-}
-
-
-
 * {
     margin: 0;
     padding: 0;
@@ -26,26 +19,23 @@ body {
 .class_for_main {}
 
 /*стили для шапки*/
-.head {
-    height: 323px;
+.main_header {
+    padding: 50px 50px 51px 50px;
     background-color: #445162;
+    box-sizing: content-box;
 }
 
-.class_for_section_head {
+.main_header::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.class_for_main_header {
     display: inline-block;
-    margin-top: 50px;
-    margin-left: 50px;
     width: 465px;
     height: 220px;
     float: left;
-
-}
-
-.ul_headre {
-    height: 127px;
-    margin-left: 38px;
-    margin-top: 48px;
-    list-style-image: url('img/check_icon.png');
 }
 
 .h1_header {
@@ -57,6 +47,16 @@ body {
     font-weight: 400;
 }
 
+
+.ul_headre {
+    position: relative;
+    height: 127px;
+    margin-left: 38px;
+    margin-top: 48px;
+    list-style-type: none;
+}
+
+
 .li_header {
     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
     color: #ffffff;
@@ -66,22 +66,40 @@ body {
     /*    line-height: 36px;*/
 }
 
+.li_header::before {
+    content: '';
+    display: block;
+    width: 25px;
+    height: 19px;
+    background: url(../img/check_icon.png);
+    background-size: cover;
+    position: absolute;
+    left: -35px;
+}
+
+
 .li_header:not(:first-child) {
     margin-top: 11px;
 }
 
-.wight_rectangle {
-    float: left;
+.img_header {
+    float: right;
     display: inline-block;
-    margin-top: 50px;
-    margin-left: 253px;
     width: 469px;
     height: 214px;
     background-color: white;
+    font-size: 0;
 }
 
 /*стили для секции информация о продукте*/
 .div_about_you_product {
+    padding: 50px;
+    box-sizing: content-box;
+}
+
+.div_about_you_product::after {
+    content: " ";
+    display: block;
     clear: both;
 }
 
@@ -91,11 +109,9 @@ body {
     float: left;
     width: 653px;
     height: 245px;
-    margin-left: 50px;
-    margin-top: 50px;
 }
 
-.h3about_product {
+.about_product_h2 {
     float: left;
     line-height: 28px;
     color: #445161;
@@ -116,20 +132,13 @@ body {
 
 }
 
-p.p1 {
-    margin-top: 30px;
-}
-
-p.p2 {
-    margin-top: 20px;
-}
+.p1 {margin-top: 30px;}
+.p2 {margin-top: 20px;}
 
 
-.grey_rectangle {
+.video_about_you_product {
     display: inline-block;
     float: right;
-    margin-right: 50px;
-    margin-top: 50px;
     width: 430px;
     height: 245px;
     background-color: #445162;
@@ -138,12 +147,19 @@ p.p2 {
 
 /*стили для секции достониства и плюсы продукта*/
 .dignity_product {
+    background-color: #f5f5f5;
+    padding: 50px 73px 51px 50px;
+    box-sizing: content-box;
+}
+
+.dignity_product::after {
+    content: ' ';
+    display: block;
     clear: both;
 }
 
 .h3_dignity_product {
     clear: both;
-    margin-top: 99px;
     text-align: center;
     color: #445161;
     font-family: "Arial regular";
@@ -152,33 +168,63 @@ p.p2 {
     line-height: 36px;
 }
 
-.img_plus {
+.column_dignity::after {
+    content: ' ';
+    display: block;
+    clear: both;
+}
+
+.column_dignity {
+    display: inline-block;
+    width: 568px;
+    margin-top: 29px;
+}
+.column_dignity.left {float: left;}
+.column_dignity.right {float: right;}
+
+
+.dignity_ditails {
+    float: left;
+    display: inline-block;
+    width: 568px;
+
+}
+
+.column_dignity details:not(:first-child) {margin-top: 35px;}
+
+.dignity_ditails::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.sum_ditails {
+    display: inline-block;
+    float: left;
+}
+
+.sum_ditails::-webkit-details-marker {
+    display: none;
+}
+
+
+.iconca_summary {
+    display: inline-block;
     width: 32px;
     height: 32px;
+    background: url(../img/plus_product.png) no-repeat;
+    background-size: 63%;
+    background-position: center;
+    background-color: #445161;
     float: left;
-    display: inline-block;
-    background-color: #445162;
-    margin-top: 5px;
-    margin-right: 9px;
-}
-
-.row_dignity_product div:first-child {
-    margin-left: 50px;
-}
-
-.row_dignity_product div:last-child {
-    margin-left: 23px;
-}
-
-.plus {
-    margin-left: 6px;
     margin-top: 5px;
 }
 
-.p_dignity {
-    width: 562px;
+.summary_p {
     display: inline-block;
     float: left;
+    width: 527px;
+    margin-left: 9px;
     color: #333333;
     font-family: "Arial regular";
     font-size: 16px;
@@ -186,15 +232,36 @@ p.p2 {
     line-height: 24px;
 }
 
-.marginf_dignity_product {
-    margin-top: 29px;
+.drop_details_dignity {
+    margin-left: 41px;
+    color: brown;
+    font-family: "Arial regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    font-style: italic;
 }
 
-.marginl_dignity_product {
-    margin-top: 35px;
+
+
+.sum_ditails:hover > div {
+    background-color: saddlebrown;
 }
 
-.section_scrinshot {}
+.sum_ditails:active > div {
+    background-color: orangered;
+}
+
+
+
+.sum_ditails:active,
+.sum_ditails:focus {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+    border: 0;
+}
 
 /****************начало секции скриншотов********************/
 .section_scrinshot {}
@@ -408,7 +475,7 @@ p.p2 {
     margin-left: 180px;
     width: 140px;
     height: 40px;
-/*    border: 1px solid #445162;*/
+    /*    border: 1px solid #445162;*/
     border-radius: 5px;
     color: #445162;
     font-family: "Arial regular";

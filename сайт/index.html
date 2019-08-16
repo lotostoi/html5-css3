@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <header class="head">
-        <section class='class_for_section_head'>
+    <header class="main_header">
+        <div class='class_for_main_header'>
             <h1 class="h1_header">Product name</h1>
             <ul class="ul_headre">
                 <li class='li_header'>Put on this page information about your product</li>
@@ -19,23 +19,28 @@
                 <li class='li_header'>Associate the page with the payment system</li>
             </ul>
 
-        </section>
-        <div class="wight_rectangle">
-            <!--<img src="#" alt="#" class="img_header">-->
         </div>
+
+        <img src="#" alt="poduct-foto" class="img_header" width="469" height="214">
+
     </header>
 
     <main class="class_for_main">
         <!--    секция о продукте-->
         <section class="div_about_you_product">
             <div class="section_about_you_product">
-                <h3 class="h3about_product">About your product</h3>
+                <h2 class="about_product_h2">About your product</h2>
                 <p class="ps_about_you_product p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis facilis fuga, illo at. Natus eos, eligendi illum rerum omnis porro ex, magni, explicabo veniam incidunt in quam sapiente ut ipsum.</p>
                 <p class="ps_about_you_product p2">Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde per- ferendis nemo debitis dolor.</p>
             </div>
-            <div class="grey_rectangle">
-                <!--<img src="#" alt="#" class="img_about_you_product">-->
-            </div>
+
+            <video width="430" height="245" controls="controls" poster="video/duel.jpg" class="video_about_you_product">
+                <source src="video/duel.ogv" type='video/ogg; codecs="theora, vorbis"'>
+                <source src="video/duel.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                <source src="video/duel.webm" type='video/webm; codecs="vp8, vorbis"'>
+
+            </video>
+
             <div class="clearfix"></div>
         </section>
 
@@ -45,38 +50,55 @@
         <section class="dignity_product">
 
             <h3 class="h3_dignity_product">Dignity and pluses product</h3>
+            <div class="column_dignity left">
+                <details class="dignity_ditails">
+                    <summary class="sum_ditails">
+                        <div class="iconca_summary"></div>
+                        <p class="summary_p">Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore minus inventore.</p>
+                    </summary>
+                    <p class="drop_details_dignity">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, ipsam! Veritatis in temporibus asperiores saepe tempora! Suscipit eius magnam quam natus nihil quaerat excepturi vero vel rerum molestiae mollitia consequuntur explicabo numquam unde, quos eaque. Amet quasi, tenetur illo totam aliquid vitae natus quos magnam quisquam facilis sit, voluptas. Dolorem.</p>
+                </details>
 
-            <div class="row_dignity_product marginf_dignity_product">
-                <div class="img_plus"><img src="img/plus_product.png" alt="plus" class="plus"></div>
-                <p class="p_dignity">Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore minus inventore.</p>
-
-                <div class="img_plus"><img src="img/plus_product.png" alt="plus" class="plus"></div>
-                <p class="p_dignity">Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore minus inventore.</p>
-
-                <div class="clearfix"></div>
+                <details class="dignity_ditails">
+                    <summary class="sum_ditails">
+                        <div class="iconca_summary"></div>
+                        <p class="summary_p">Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore minus inventore.</p>
+                    </summary>
+                    <p class="drop_details_dignity">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, ipsam! Veritatis in temporibus asperiores saepe tempora! Suscipit eius magnam quam natus nihil quaerat excepturi vero vel rerum molestiae mollitia consequuntur explicabo numquam unde, quos eaque. Amet quasi, tenetur illo totam aliquid vitae natus quos magnam quisquam facilis sit, voluptas. Dolorem.</p>
+                </details>
+                <details class="dignity_ditails">
+                    <summary class="sum_ditails">
+                        <div class="iconca_summary"></div>
+                        <p class="summary_p">Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore minus inventore.</p>
+                    </summary>
+                    <p class="drop_details_dignity">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, ipsam! Veritatis in temporibus asperiores saepe tempora! Suscipit eius magnam quam natus nihil quaerat excepturi vero vel rerum molestiae mollitia consequuntur explicabo numquam unde, quos eaque. Amet quasi, tenetur illo totam aliquid vitae natus quos magnam quisquam facilis sit, voluptas. Dolorem.</p>
+                </details>
             </div>
 
-            <div class="row_dignity_product marginl_dignity_product">
-                <div class="img_plus"><img src="img/plus_product.png" alt="plus" class="plus"></div>
-                <p class="p_dignity">Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore minus inventore.</p>
-
-                <div class="img_plus"><img src="img/plus_product.png" alt="plus" class="plus"></div>
-                <p class="p_dignity">Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore minus inventore.</p>
-
-                <div class="clearfix"></div>
+            <div class="column_dignity right">
+                <details class="dignity_ditails">
+                    <summary class="sum_ditails">
+                        <div class="iconca_summary"></div>
+                        <p class="summary_p">Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore minus inventore.</p>
+                    </summary>
+                    <p class="drop_details_dignity">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, ipsam! Veritatis in temporibus asperiores saepe tempora! Suscipit eius magnam quam natus nihil quaerat excepturi vero vel rerum molestiae mollitia consequuntur explicabo numquam unde, quos eaque. Amet quasi, tenetur illo totam aliquid vitae natus quos magnam quisquam facilis sit, voluptas. Dolorem.</p>
+                </details>
+                <details class="dignity_ditails">
+                    <summary class="sum_ditails">
+                        <div class="iconca_summary"></div>
+                        <p class="summary_p">Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore minus inventore.</p>
+                    </summary>
+                    <p class="drop_details_dignity">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, ipsam! Veritatis in temporibus asperiores saepe tempora! Suscipit eius magnam quam natus nihil quaerat excepturi vero vel rerum molestiae mollitia consequuntur explicabo numquam unde, quos eaque. Amet quasi, tenetur illo totam aliquid vitae natus quos magnam quisquam facilis sit, voluptas. Dolorem.</p>
+                </details>
+                <details class="dignity_ditails">
+                    <summary class="sum_ditails">
+                        <div class="iconca_summary"></div>
+                        <p class="summary_p">Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore minus inventore.</p>
+                    </summary>
+                    <p class="drop_details_dignity">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, ipsam! Veritatis in temporibus asperiores saepe tempora! Suscipit eius magnam quam natus nihil quaerat excepturi vero vel rerum molestiae mollitia consequuntur explicabo numquam unde, quos eaque. Amet quasi, tenetur illo totam aliquid vitae natus quos magnam quisquam facilis sit, voluptas. Dolorem.</p>
+                </details>
             </div>
 
-            <div class="row_dignity_product marginl_dignity_product">
-                <div class="img_plus "><img src="img/plus_product.png" alt="plus" class="plus"></div>
-                <p class="p_dignity ">Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore minus inventore.
-
-                </p>
-
-                <div class="img_plus "><img src="img/plus_product.png" alt="plus" class="plus"></div>
-                <p class="p_dignity ">Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore minus inventore.</p>
-
-                <div class="clearfix"></div>
-            </div>
         </section>
 
         <!--секция скриншоты-->
@@ -191,9 +213,9 @@
 
             </section>
             <section class="mini_section_buy_now spremium">
-                    <h4 class="h4_mini_section">Premium</h4>
-                    <p class="p_mimi_section">$150</p>
-                    <ol class="ol_mini_section">
+                <h4 class="h4_mini_section">Premium</h4>
+                <p class="p_mimi_section">$150</p>
+                <ol class="ol_mini_section">
                     <li class="standart">Porro officia cumque sint deleniti; </li>
                     <li class="standart">Тemo facere rem vitae odit;</li>
                     <li class="standart">Cum odio, iste quia doloribus autem; </li>
@@ -205,12 +227,12 @@
                 </ol>
                 <input type="button" class="buttom_buy" value="buy">
                 <div class="clearfix"></div>
-                
+
             </section>
-            <section class="mini_section_buy_now slux">  
-                    <h4 class="h4_mini_section">Premium</h4>
-                    <p class="p_mimi_section">$150</p>
-                    <ol class="ol_mini_section">
+            <section class="mini_section_buy_now slux">
+                <h4 class="h4_mini_section">Premium</h4>
+                <p class="p_mimi_section">$150</p>
+                <ol class="ol_mini_section">
                     <li class="standart">Porro officia cumque sint deleniti; </li>
                     <li class="standart">Тemo facere rem vitae odit;</li>
                     <li class="standart">Cum odio, iste quia doloribus autem; </li>
@@ -225,13 +247,14 @@
                     <li class="standart">Aperiam nulla ea neque.</li>
                 </ol>
                 <input type="button" class="buttom_buy" value="buy">
-                <div class="clearfix"></div></section>
+                <div class="clearfix"></div>
+            </section>
         </section>
 
-       
-       
-       
-       
+
+
+
+
         <div class="h50">
             <div class="clearfix"></div>
         </div>
@@ -298,9 +321,21 @@
         <h3 class="h3_footer_main">Copyright &copy; 2014 Product name - PSD HTML CSS </h3>
     </footer>
     <script>
-        function openNewWin(url) {
-            myWin = open(url);
-        }
+        var count;
+//        count = 0;
+//        document.querySelector(".iconca_summary").style.background = "url('img/plus_product.png') center no-repeat";
+//        document.querySelector(".iconca_summary").style.backgroundColor = "#445161";
+//        document.querySelector('.sum_ditails').onclick = function() {
+//            if (count == 0) {
+//                count = 1;
+//                document.querySelector(".iconca_summary").style.background = "url('img/minys_product.png') center no-repeat"
+//                document.querySelector(".iconca_summary").style.backgroundColor = "#445161";
+//            } else {
+//                count = 0;
+//                document.querySelector(".iconca_summary").style.background = "url('img/plus_product.png') center no-repeat";
+//                document.querySelector(".iconca_summary").style.backgroundColor = "#445161";
+            }
+        };
     </script>
 
 </body>
