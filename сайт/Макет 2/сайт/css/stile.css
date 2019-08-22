@@ -1,0 +1,687 @@
+* {
+    margin: 0;
+
+    padding: 0;
+}
+
+.contener {
+    margin: 10px auto;
+    width: 1440px;
+    border: 1px solid grey;
+}
+
+/******************Шапка сайта**********************/
+/******************Шапка сайта**********************/
+/******************Шапка сайта**********************/
+.header_main {
+    padding: 41px 0 161px 0;
+    width: 100%;
+    background: url(../img/fon_head.jpg) no-repeat;
+    background-size: cover;
+    box-sizing: content-box;
+    text-align: cover;
+}
+
+.header_main::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.logo_and_nav {
+    padding: 12px 95px 9px 130px;
+    background-color: #0e0e0e;
+    box-sizing: content-box;
+}
+
+.logo_and_nav::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.logo_images {
+    display: inline-block;
+    float: left;
+    width: 37px;
+    height: 33px;
+    margin-top: 1px;
+    margin-right: -5px;
+
+}
+
+.logo_text {
+    display: inline-block;
+    float: left;
+    width: 160px;
+    margin-top: -2.7px;
+}
+
+.logo_top_text {
+    float: left;
+}
+
+.text_top_white {
+    font-size: 26.2px;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 26.2px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    letter-spacing: -1px;
+    display: inline-block;
+    margin-left: 3px;
+}
+
+
+.text_top_blue {
+    font-size: 26.2px;
+    text-transform: uppercase;
+    line-height: 26.2px;
+    color: #3ea2d8;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    letter-spacing: -1px;
+    display: inline-block;
+    margin-left: -4px;
+}
+
+
+.logo_bottom_text {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 9.39px;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: inline-block;
+    float: left;
+    margin-left: 19px;
+    margin-top: 0px;
+    letter-spacing: 1.65px;
+}
+
+.contener_nav {
+    float: right;
+}
+
+.menu_nav:hover {
+    color: orangered;
+}
+
+.menu_nav:active {
+    color: yellow;
+}
+
+
+.menu_nav {
+    display: inline-block;
+    text-decoration: none;
+    color: #3fadd0;
+    font-family: "Raleway";
+    font-size: 19.11px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 4px;
+
+}
+
+.contener_nav a:nth-of-type(4) {
+    margin-right: 0px;
+}
+
+.contener_nav a:nth-of-type(3) {
+    margin-right: 78px;
+}
+
+.contener_nav a:nth-of-type(2) {
+    margin-right: 81px;
+}
+
+.contener_nav a:nth-of-type(1) {
+    margin-right: 80px;
+}
+
+.style_h1 {
+    margin: 287px 425px 0;
+}
+
+.img_h1 {
+    width: 598px;
+    height: 149px;
+}
+
+.text_header {
+
+    width: 792px;
+    color: #ffffff;
+    font-family: "Raleway";
+    font-size: 21.7px;
+    font-weight: 400;
+    text-align: center;
+    margin: 43px 321px 0;
+}
+
+.read_more {
+    display: inline-block;
+    width: 257px;
+    height: 55px;
+    border-radius: 24px;
+    background-color: #ffffff;
+    opacity: 0.8;
+    text-align: center;
+    color: #3ea2d8;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 55px;
+    margin-top: 100px;
+    margin-left: 596px;
+}
+
+.read_more:hover {
+    background-color: blueviolet;
+}
+
+.read_more:active {
+    background-color: sandybrown;
+}
+
+.class_for_main {}
+
+/******************Секция кто мы есть**********************/
+/******************Секция кто мы есть**********************/
+/******************Секция кто мы есть**********************/
+.top_who_are_we {
+    padding: 157px 0 156px 0;
+    background-color: #000000;
+    box-sizing: content-box;
+
+
+}
+
+.top_who_are_we::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.who_are_we_h2 {
+    color: #00c1ff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 29px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-align: center;
+    margin-left: 2px;
+    margin-top: 4px;
+}
+
+.who_are_we_text {
+    width: 897px;
+    color: #00c1ff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18.67px;
+    font-weight: 400;
+    line-height: 33.33px;
+    margin-top: 32px;
+    text-align: center;
+    float: left;
+    margin-left: 272px;
+}
+
+.bottom_who_we {
+    padding: 125px 178px 120px 181px;
+    background-color: #161616;
+    box-sizing: content-box;
+}
+
+.bottom_who_we::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.parts_bottom_who_we {
+    float: left;
+    width: 292px;
+}
+
+.parts_h3_who {
+    float: left;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18.7px;
+    font-weight: 700;
+    line-height: 33.24px;
+    text-transform: uppercase;
+    letter-spacing: -0.2px;
+}
+
+.parts_who_p {
+    margin-top: 24px;
+    float: left;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16.62px;
+    font-weight: 400;
+    line-height: 24.93px;
+
+}
+
+.bottom_who_we section:nth-of-type(2) {
+    margin-left: 102px;
+}
+
+.bottom_who_we section:nth-of-type(3) {
+    margin-left: 103px;
+}
+
+
+/******************Приоритеные направления**********************/
+/******************ПРиоритеные направления**********************/
+/******************ПРиоритеные направления**********************/
+
+.priorities {
+    padding: 85px 120px 127px 152px;
+    background: url(../img/fon_pioritets.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    box-sizing: content-box;
+
+}
+
+.priorities::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.h2_priorities {
+    color: #00c1ff;
+    font-family: Roboto;
+    font-size: 29.17px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.p_priotities {
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 983px;
+    color: #00c1ff;
+    font-family: Raleway;
+    font-size: 20.83px;
+    font-weight: 500;
+    line-height: 33.33px;
+    text-align: center;
+    margin-left: 82px;
+
+}
+
+.view_priotitiets {
+    display: inline-block;
+    background-color: #2a2a2a;
+    opacity: 0.8;
+    padding: 59px 97px 76px 97px;
+    box-sizing: content-box;
+}
+
+section.view_priotitiets:nth-of-type(1),
+section.view_priotitiets:nth-of-type(4) {
+    float: left;
+}
+
+section.view_priotitiets:nth-of-type(3),
+section.view_priotitiets:nth-of-type(6) {
+    float: right;
+}
+
+section.view_priotitiets:nth-of-type(1),
+section.view_priotitiets:nth-of-type(2),
+section.view_priotitiets:nth-of-type(3) {
+    margin-top: 82px;
+}
+
+section.view_priotitiets:nth-of-type(4),
+section.view_priotitiets:nth-of-type(5),
+section.view_priotitiets:nth-of-type(6) {
+    margin-top: 31px;
+}
+
+
+.h3_view_priorities {
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.p_view_priorities {
+    margin: 0 auto;
+    margin-top: 54px;
+    width: 176px;
+    color: #ffffff;
+    font-family: Lora;
+    font-size: 16.7px;
+    font-weight: 400;
+}
+
+.span_name_manager {
+    margin-top: 57px;
+    display: block;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+.span_position {
+    margin-top: -3px;
+    display: block;
+    color: #ffffff;
+    font-family: "Lora";
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/******************Что конертно мы делаем**********************/
+/******************Что конертно мы делаем**********************/
+/******************Что конертно мы делаем**********************/
+.section_what_do_we_do {
+    padding: 94px 151px 125px 155px;
+    box-sizing: content-box;
+    background-color: #000;
+}
+
+.section_what_do_we_do::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.h3_what_do_we_do {
+    color: #00c1ff;
+    font-family: Raleway;
+    font-size: 29px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.p_what_do_we_do {
+    color: #00c1ff;
+    font-family: Raleway;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 33.33px;
+    width: 705px;
+    text-align: center;
+    margin-top: 24px;
+    margin-left: 219px;
+
+}
+
+.nav_what_do_we_do {
+    display: block;
+    margin: 0 auto;
+    width: 354px;
+    margin-top: 86px;
+
+}
+
+.a_what_do_we_do {
+    color: #00c1ff;
+    font-family: Raleway;
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.a_what_do_we_do:hover {
+    color: orangered;
+}
+
+.a_what_do_we_do:active {
+    color: yellow;
+}
+
+
+.section_what_do_we_do a:not(:first-of-type) {
+    margin-left: 37px;
+}
+
+.section_what_do_we_do section:nth-of-type(3) {
+    float: right;
+}
+
+.section_what_do_we_do section:nth-of-type(2) {
+    margin-left: 305px;
+}
+
+.sport_what_do_we_do {
+    width: 173px;
+    float: left;
+    display: inline-block;
+    text-align: center;
+    margin-top: 83px;
+}
+
+.img_sport {
+    margin-bottom: 36px;
+}
+
+.img_shtanga {
+    margin-bottom: 41px;
+}
+
+.img_gira {
+    margin-bottom: 41px;
+}
+
+.img_shtanga,
+.img_gira {
+    margin-top: 6px;
+}
+
+.h3_sport {
+
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.p_sport {
+    margin: 0 auto;
+    margin-top: 46px;
+    width: 176px;
+    color: #ffffff;
+    font-family: Lora;
+    font-size: 16.7px;
+    font-weight: 400;
+}
+
+.span_sport_name {
+    text-align: center;
+    margin-top: 56px;
+    display: block;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.span_sport_position {
+    text-align: center;
+    margin-top: -3px;
+    display: block;
+    color: #ffffff;
+    font-family: "Lora";
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/******************отзыв или цитата****************************/
+/******************отзыв или цитата****************************/
+/******************отзыв или цитата****************************/
+.articl_what_do_we_do {
+    padding: 121px 328px 62px 313px;
+    box-sizing: content-box;
+    background-color: #161616;
+    text-align: center;
+}
+
+.articl_what_do_we_do::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+.p_articl_what_do {
+    color: #00c1ff;
+    font-family: "Raleway";
+    font-size: 20.1px;
+    font-weight: 400;
+    line-height: 33.33px;
+    width: 774px;
+}
+
+.name_articl_what_do {
+    display: block;
+    margin-top: 37px;
+    font-family: "Raleway";
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 33.33px;
+    color: #00c1ff;
+    margin-left: 16px;
+}
+
+/******************секция о природе****************************/
+/******************секция о природе****************************/
+/******************секция о природе****************************/
+
+.nature {
+    background-color: black;
+}
+
+.nature::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.nature_cont_for_text {
+    float: left;
+    padding: 190px 110px 339px 160px;
+    width: 430px;
+    box-sizing: content-box;
+    display: inline-block;
+}
+
+.img_nature {
+    float: left;
+    display: inline-block;
+
+}
+
+.h2_neture {
+    color: #00c1ff;
+    font-family: "Raleway";
+    font-size: 37px;
+    font-weight: 500;
+    text-transform: uppercase;
+
+}
+
+.p_neture {
+    margin-top: 7px;
+    color: #00c1ff;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 31.38px;
+}
+
+.img_nature {
+    display: inline-block;
+    float: right;
+}
+
+/******************купить билет****************************/
+/******************купить билет****************************/
+/******************купить билет****************************/
+
+.section_buy_tikcets {
+    padding: 212px 91px 207px 1044px;
+    background: url(../img/Imsge.jpg) no-repeat;
+    background-size: cover;
+}
+
+.section_buy_tikcets::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+
+.h2_buy {
+    text-align: right;
+    width: 276px;
+    color: #fefefe;
+    font-family: "Roboto";
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+
+.p_buy {
+    text-align: right;
+    margin-top: 25px;
+    width: 276px;
+    color: #fefefe;
+    font-family: "Roboto";
+    font-size: 17px;
+    font-weight: 400;
+
+}
+
+.a_buy {
+    margin-top: 46px;
+    float: right;
+    text-align: center;
+    display: block;
+    width: 164px;
+    height: 46px;
+    border-radius: 23px;
+    background-color: #ffffff;
+    opacity: 0.8;
+    line-height: 46px;
+    color: #00c0ff;
+    font-family: "Roboto";
+    font-size: 21px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.a_buy:hover {
+    background-color: blueviolet;
+}
+
+.a_buy:active {
+    background-color: sandybrown;
+}
