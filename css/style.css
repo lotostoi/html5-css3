@@ -124,6 +124,12 @@ body {
     height: 245px;
 }
 
+.section_about_you_product::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
 .about_product_h2 {
     float: left;
     line-height: 28px;
