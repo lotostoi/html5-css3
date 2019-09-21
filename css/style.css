@@ -121,7 +121,7 @@ body {
     display: inline-block;
     float: left;
     width: 653px;
-    height: 245px;
+    //height: 245px;
 }
 
 .section_about_you_product::after {
